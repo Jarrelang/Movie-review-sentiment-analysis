@@ -57,14 +57,14 @@ python -m spacy download en_core_web_sm
 Each review undergoes the following steps:
 
 1. HTML tag removal (`BeautifulSoup`)
-2. Contraction expansion (e.g. *"didn't" → "did not"*)
+2. Contraction expansion (e.g. "didn't" → "did not")
 3. Lowercasing
 4. spaCy-based:
 
    * Tokenisation
    * Stop-word removal (words that do not provide much meaning such as 'the', 'is' etc)
    * Punctuation removal
-   * Lemmatization (converting every word into its base form ie. running -> run)
+   * Lemmatization (converting every word into its base form ie. 'running' → 'run')
 
 # Machine Learning Pipeline
 
